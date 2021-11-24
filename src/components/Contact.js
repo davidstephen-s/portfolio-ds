@@ -45,11 +45,7 @@ const Contact = () => {
                   <FcBusinessContact className="contactIcon" />8667201866
                 </li>
               </ul>
-              <div>
-                <p>
-                Copyright © 2021.   All Rights Reserved by David Stephen S 
-                </p>
-              </div>
+      
             </div>
           </div>
         </div>
