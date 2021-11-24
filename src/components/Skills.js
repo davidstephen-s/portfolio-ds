@@ -28,7 +28,7 @@ const Skills = () => {
       icon: <FaCss3Alt className="commonIcons" />,
       heading: "Css",
       text:
-        "92",
+        "92%",
         progress: <Progressbar bgcolor="#ff4a57" progress='92'  height={10} />
     },
     {
