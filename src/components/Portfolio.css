@@ -65,6 +65,7 @@
 .card-title{
     margin-bottom: 0;
 }
+
 .card-img-overlay > * {
     transform: translateY(20px);
     transition: transform 0.25s;
@@ -94,6 +95,9 @@
     #portfolio{
         padding:2.5rem 1rem ;
     }
+}
+.btn{
+    color: #fff;
 }
 .react{
     color: lightblue;   
