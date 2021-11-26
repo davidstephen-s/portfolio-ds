@@ -5,9 +5,12 @@ import Logo from "../images/logo.png"
 function Navbar({toggle}) {
     return (
         <>
+        
+
             <Nav>
+            
                 <NavbarContainer>
-                   <NavLogo to='/'>
+                <NavLogo to='/'>
                    <Image src={Logo} /> 
                    </NavLogo>
                     <MobileIcon onClick={toggle}>

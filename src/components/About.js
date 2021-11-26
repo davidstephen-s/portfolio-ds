@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="col-6">
             <div className="about__info">
-              <h1>Hi There</h1>
+              <h1>Hi There ,</h1>
               <div className="about__info-p1">
               I'm a passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences powered by strong backend. I primarily work with MERN stack among the full stack technologies. The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively. 
               </div>

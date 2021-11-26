@@ -1,8 +1,8 @@
 import React from "react";
 
-const footer = () => {
+const Footer = () => {
   return (
-    <div className="footer">
+    <div className="contact">
       <div className="container">
         <div className="contactSection">
           <div className="row justifyConter">
@@ -18,4 +18,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

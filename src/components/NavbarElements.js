@@ -42,7 +42,9 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
 `
 export const Image = styled.img`
-    height:50px;
+    height:180px;
+    margin-right:0px;
+    padding:0px;
 `
 export const MobileIcon = styled.div`
     display: none;

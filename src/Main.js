@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 import Sidebar from "./components/Sidebar";
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
-import footer from './components/footer';
+import Footer from './components/Footer';
 
 function Main() {
   const [isOpen,setIsOpen] = useState(false)
@@ -26,7 +26,7 @@ function Main() {
       <Skills/> 
       <Portfolio />
       <Contact />
-      <footer/>
+      <Footer/>
      
     </div>
   );
