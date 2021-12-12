@@ -81,7 +81,8 @@ body {
   flex-wrap: wrap;
 }
 .col-6 {
-  width: 50%;
+  width: 100%;
+  margin-left: 5%;
 }
 
 .col-4 {
@@ -261,8 +262,10 @@ body {
   margin-bottom: 30px;
 }
 .about__info-p1 {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
+  width: 100%;
+
 }
 
 
@@ -318,7 +321,7 @@ body {
   margin-top: 40px;
 }
 .contact {
-  padding: 100px 0;
+  padding: 70px 0;
   background: #23263a;
   text-align: center;
 }
@@ -431,4 +434,8 @@ body {
 }
 .h21{
   color: #fff;
+}
+.cpr{
+  font-size: 5px;
+  
 }

@@ -38,12 +38,7 @@ const Contact = () => {
                   <SiGmail className="contactIcon" /> Lets Discuss.
                   </a>
                 </li>
-                <li>
-                  <FaLocationArrow className="contactIcon" /> Tiruchirappalli 
-                </li>
-                <li>
-                  <FcBusinessContact className="contactIcon" />8667201866
-                </li>
+               
               </ul>
       
             </div>
