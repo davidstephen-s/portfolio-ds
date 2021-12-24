@@ -12,30 +12,22 @@ const About = () => {
   ]);
   return (
     <div className="about">
-      <div className="container">
+      <div className="containe">
         <div className="common">
           <h1 className="mainHeader">{header.subHeader}</h1>
           <p className="mainContent">{header.text}</p>
           <div className="commonBorder"></div>
         </div>
-        <div className="row  h-650 alignCenter">
+        <div className="ow  h-650 alignCenter">
          
-          <div className="col-6">
+          <div className="co-6">
             <div className="about__info">
               <h1>Hi There ,</h1>
               <div className="about__info-p1">
               I'm a passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences powered by strong frontend. I primarily work with MERN stack among the full stack technologies. The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively. 
               </div>
-              <div className="info__contacts">
-                <div className="row">
-                  {state.map((info) => (
-                    <div className="col-6">
-                      <strong>{info.title}</strong>
-                      <p>{info.text}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              
+              
             </div>
           </div>
         </div>

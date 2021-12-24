@@ -23,9 +23,9 @@ const Home = () => {
             </HomeBg>
             <HomeContent>         
     <header className="header">
-      <div className="container">
-        <div className="row">
-          <div className="col-6">
+      <div className="containe">
+        <div className="ow">
+          <div className="co-6">
             <div className="header__content">
               <div className="header__section">
                 <ul className="header__ul">
@@ -45,10 +45,13 @@ const Home = () => {
                     </a>
                     </li>
                 </ul>
+               
                 <h1>{state.title}</h1>
+                <div >
                 <p>{state.text}</p>
-                <div className="header__buttons">
-                  <a href="https://drive.google.com/file/d/1foMs4XvuMGqQkjqlg2Yq_sfv_Aeybeq1/view" target="_blank" className="btn btn-outline">
+                </div>
+                <div className="header_ho">
+                  <a href="https://drive.google.com/file/d/1foMs4XvuMGqQkjqlg2Yq_sfv_Aeybeq1/view" target="_blank" className="bt bt-outline">
                     View Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;

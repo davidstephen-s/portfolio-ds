@@ -13,10 +13,10 @@ import{
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="container">
+      <div className="containe">
         <div className="contactSection">
-          <div className="row justifyConter">
-            <div className="col-6">
+          <div className="ow justifyConter">
+            <div className="co-6">
               <div className="contactSection-logo">
                <h1 className="h21">
                  Contact
@@ -35,7 +35,7 @@ const Contact = () => {
                 </li>
                 <li>
                 <a href ="mailto:davidtephen40@gmail.com" target="_blank" className="contactIcon">
-                  <SiGmail className="contactIcon" /> Lets Discuss.
+                  <SiGmail className="contactIcon" /> 
                   </a>
                 </li>
                

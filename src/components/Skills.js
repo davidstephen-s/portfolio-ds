@@ -79,7 +79,7 @@ const Skills = () => {
   ]);
   return (
     <div className="services">
-      <div className="container">
+      <div className="containe">
         <div className="services__header">
           <div className="common">
             <h3 className="heading">{header.mainHeader}</h3>
@@ -87,9 +87,9 @@ const Skills = () => {
             <div className="commonBorder"></div>
           </div>
 
-          <div className="row bgMain">
+          <div className="ow bgMain">
             {state.map((info) => (
-              <div className="col-4 bgMain">
+              <div className="co-4 bgMain">
                 <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
