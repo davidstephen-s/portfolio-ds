@@ -8,6 +8,10 @@ import {
   FaReact,
   FaNode,
 } from "react-icons/fa";
+import{
+  DiMysql,
+} from "react-icons/di";
+import { SiMongodb,SiExpress } from "react-icons/si";
 const Skills = () => {
   const [header] = React.useState({
     mainHeader: "Skills",
@@ -57,6 +61,7 @@ const Skills = () => {
     },
     {
       id: 6,
+      icon: <SiExpress  className="commonIcons"/>,
       heading: "ExpressJs",
       text:
         "70%",
@@ -64,6 +69,7 @@ const Skills = () => {
     },
     {
       id: 7,
+      icon: <SiMongodb className="commonIcons"/>,
       heading: "MongoDB",
       text:
         "70%",
@@ -72,6 +78,7 @@ const Skills = () => {
     {
       id: 8,
       heading: "My Sql",
+      icon: <DiMysql className="commonIcons"/>,
       text:
         "69%",
         progress: <Progressbar bgcolor="#ff4a57" progress='69'  height={10} />

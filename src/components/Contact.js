@@ -24,7 +24,7 @@ const Contact = () => {
               </div>
               <ul className="contactCircles">
                 <li>
-                <a href ="https://github.com/davidstephen-s" target="_blank" className="contactIcon">
+                <a href ="https://github.com/davidstephen-s" target="_blank" rel="noreferrer" className="contactIcon">
                   <FaGithub className="contactIcon"  />
                   </a>
                 </li>
@@ -34,8 +34,8 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                <a href ="mailto:davidtephen40@gmail.com" target="_blank" className="contactIcon">
-                  <SiGmail className="contactIcon" /> 
+                <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="contactIcon">
+                  <SiGmail className="contactIcon" />
                   </a>
                 </li>
                

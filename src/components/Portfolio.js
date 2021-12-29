@@ -16,27 +16,20 @@ function Portfolio() {
                 <div class="card"  data-aos="zoom-in-up">
                     <img src={Invoice} class="card-img-top" alt="..." />
                     <div class="title_heading">
-                        <h5 class="card-title">Mern-Weather-App</h5>
+                        <h5 class="card-title">Mern-Notes-App</h5>
                     </div>
                     <div className='card-img-overlay'>
-                        <div className='img-title'>weather App</div>
+                        <div className='img-title'>Notes App</div>
                         <div className='img-description'>
-                            <p>Weathering With You is a weather web app to get the current weather data of the zip code you submit into the form. Consists of 4 main components:
-
-
-
-                            the header at the top,
-the form to input your zipcode, choose the temperature metric, and save button,
-[left-hand panel] Display weather data,
-[right-hand panel] 10 most recent weather data queries</p>
+                            <p>Notes web app You create your Notes with date and time and save.Login system , Your notes Dash Board and Logout option  </p>
                             <div className='tech_used'>
                                 <i class="fab fa-react react"></i> &nbsp;
                                 <i class="fab fa-node node"></i> &nbsp;
                                 <SiIcons.SiMongodb className='mongodb' /> &nbsp;
                                 <p className='codeLinks text-center p-3'>
-                                    <a className='bth btn-sm btn-success m3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/mern-weather-app-master/tree/master/client'>Frontend <i class="fab fa-github"></i></a>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/mern-weather-app-master/tree/master/server'>Backend <i class="fab fa-github"></i></a>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://mernweatherapp.herokuapp.com/'>Website <i class="fad fa-link"></i></a>
+                                    <a className='bth btn-sm btn-success m3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/mern-notes-app/tree/master/client'>Frontend <i class="fab fa-github"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/mern-notes-app'>Backend <i class="fab fa-github"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://devat-notes.herokuapp.com/'>Website <i class="fad fa-link"></i></a>
                                 </p>
                             </div>
                         </div>
@@ -54,7 +47,7 @@ the form to input your zipcode, choose the temperature metric, and save button,
                             
                             <div className='tech_used'>
                                 <i class="fab fa-react react"></i> &nbsp;
-                                <i class="fab fa-node node"></i> &nbsp;
+                                <i class="fab fa-php "></i> &nbsp;
                                 <SiIcons.SiMongodb className='mongodb' /> &nbsp;
                                 <p className='codeLinks text-center pt-3'>
                                    <a className='bth btn-sm btn-success ml-3'  target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/react-spotify-clone-master'>Frontend <i class="fab fa-github"></i></a>
@@ -74,18 +67,7 @@ the form to input your zipcode, choose the temperature metric, and save button,
                         <div className='img-title'>Find Restaurant NearMe</div>
                         <div className='img-description'>
                             <p>Here you can find nearby place like restaurant, hotel ,etc Using Google map React.  Allow Location To Find near By your Places.
-                            Npm Library Used::
-    axios:0.21.1,
-    google-map-react:2.1.10,
-    howler:2.2.2,
-    react:17.0.2,
-    react-dom:17.0.2,
-    react-paginate":7.1.3,
-    react-router-dom: 5.2.0,
-    react-scripts:4.0.3,
-    react-star-ratings:2.3.0,
-    react-toastify:7.0.4,
-    web-vitals": "^1.1.2.
+                            
                             </p>
                             
                             <div className='tech_used'>

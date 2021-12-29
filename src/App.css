@@ -66,7 +66,7 @@ body {
 }
 
 .h-650 {
-  height: 650px;
+  height: 620px;
 }
 .alignCenter {
   align-items: center;
@@ -106,8 +106,6 @@ body {
 .header__ul li {
   width: 50px;
   height: 50px;
-  border: 2px solid #ff4a57;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,16 +114,21 @@ body {
   cursor: pointer;
 }
 .headerIcon{
-  color: #dfdfdf;
   width: 30px;
   height: 30px;
+  color: #fff;
+  
+  
 }
 .header__ul li:hover {
-  background: #fff;
-  border: 2px solid transparent;
+  transition: all 0.5s linear;
+  cursor: pointer;
+
 }
 .header__ul li:hover .headerIcon {
   color: #ff4a57;
+  
+  
 }
 .header__ul li:first-child {
   margin-left: 0;
@@ -192,7 +195,7 @@ body {
   font-size: 16px;
 }
 .mainHeader {
-  font-size: 32px;
+  font-size: 40px;
   color: #fff;
 }
 .mainContent {
@@ -213,9 +216,7 @@ body {
   margin: 20px;
   transition: all 0.5s linear;
 }
-.services__box:hover {
-  background-color:rgba(255, 138, 138, 0.281) ;
-}
+
 .commonIcons {
   font-size: 40px;
   color: #ff4a57;
@@ -235,7 +236,7 @@ body {
 }
 .about {
   width: 100%;
-  height: 100%;
+  height: 60%;
   position: relative;
   background-position: fixed;
   background-attachment: fixed;
@@ -269,10 +270,13 @@ body {
   
 }
 .about__info h1 {
-  margin-bottom: 30px;
+  margin-top: -100px;
+  margin-bottom: 20px;
+  font-size: 35px;
 }
 .about__info-p1 {
-  font-size: 35px;
+  margin-top: 1px;
+  font-size: 30px;
   margin-bottom: 20px;
   width: 100%;
   
@@ -399,8 +403,8 @@ body {
   transition: all 0.5s linear;
   cursor: pointer;
 }
-.contactCircles li:hover {
-  background: #ff4a57;
+.contactIcon:hover {
+  color:#ff4a57;
   
 }
 .toggle {
