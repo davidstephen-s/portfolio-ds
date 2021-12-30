@@ -21,7 +21,7 @@ function Portfolio() {
                     <div className='card-img-overlay'>
                         <div className='img-title'>Notes App</div>
                         <div className='img-description'>
-                            <p>Notes web app You create your Notes with date and time and save.Login system , Your notes Dash Board and Logout option  </p>
+                            <p>Notes web app You create your Notes with date and time and save.Login system , Your notes Dash Board and Logout option.  </p>
                             <div className='tech_used'>
                                 <i class="fab fa-react react"></i> &nbsp;
                                 <i class="fab fa-node node"></i> &nbsp;
@@ -61,12 +61,12 @@ function Portfolio() {
                 <div class="card" data-aos="zoom-in-up">
                     <img src={Res} class="card-img-top" alt="..." />
                     <div class="title_heading">
-                        <h5 class="card-title">find-restaurant-near-me</h5>
+                        <h5 class="card-title">Travel App</h5>
                     </div>
                     <div className='card-img-overlay'>
-                        <div className='img-title'>Find Restaurant NearMe</div>
+                        <div className='img-title'>Travel App</div>
                         <div className='img-description'>
-                            <p>Here you can find nearby place like restaurant, hotel ,etc Using Google map React.  Allow Location To Find near By your Places.
+                            <p>Travel web app used to find where you can travel , Also find how much the travel cost, Login/Signup page, Featured dashboard .
                             
                             </p>
                             
@@ -75,9 +75,9 @@ function Portfolio() {
                                 <i class="fab fa-node node"></i> &nbsp;
                                 <SiIcons.SiMongodb className='mongodb' /> &nbsp;
                                 <p className='codeLinks text-center pt-3'>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/find-restaurant-near-me-master'>Frontend <i class="fab fa-github"></i></a>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/find-restaurant-near-me-master'>Backend <i class="fab fa-github"></i></a>
-                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://nearbyplace.netlify.app/'>Website <i class="fad fa-link"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/Travelapp-frontend'>Frontend <i class="fab fa-github"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://github.com/davidstephen-s/TravelApp-backend'>Backend <i class="fab fa-github"></i></a>
+                                    <a className='bth btn-sm btn-success ml-3' target='_blank' rel="noreferrer" href='https://travelmainn-app.netlify.app/'>Website <i class="fad fa-link"></i></a>
                                 </p>
                             </div>
                         </div>

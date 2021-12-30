@@ -12,7 +12,7 @@ const About = () => {
   ]);
   return (
     <div className="about">
-      <div className="containe">
+      <div className="contain">
         <div className="common">
           <h1 className="mainHeader">{header.subHeader}</h1>
           <p className="mainContent">{header.text}</p>

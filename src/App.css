@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: bolder;
+
 }
 .header {
   width: 100%;
@@ -66,7 +66,7 @@ body {
 }
 
 .h-650 {
-  height: 620px;
+  height: 500px;
 }
 .alignCenter {
   align-items: center;
@@ -248,6 +248,11 @@ body {
   flex-wrap: wrap;
   
 }
+.contain {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 .about__img {
   width: 100%;
   height: inherit;
@@ -276,7 +281,7 @@ body {
 }
 .about__info-p1 {
   margin-top: 1px;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 20px;
   width: 100%;
   
