@@ -29,7 +29,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                <a href ="https://www.linkedin.com/in/david-stephen/-204794135" target="_blank" className="contactIcon">
+                <a href ="www.linkedin.com/in/davidstephens5405" target="_blank" className="contactIcon">
                   <FaLinkedin className="contactIcon" />
                   </a>
                 </li>
