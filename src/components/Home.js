@@ -30,7 +30,7 @@ const Home = () => {
               <div className="header__section">
                 <ul className="header__ul">
                   <li>
-                    <a href ="https://www.linkedin.com/in/david-stephen-s-204794135" target="_blank" className="headerIcon">
+                    <a href ="www.linkedin.com/in/davidstephens5405" target="_blank" className="headerIcon">
                     <FaLinkedin className="headerIcon" />
                     </a>
                   </li>
