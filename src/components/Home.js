@@ -29,11 +29,7 @@ const Home = () => {
             <div className="header__content">
               <div className="header__section">
                 <ul className="header__ul">
-                  <li>
-                    <a href ="https://www.linkedin.com/in/david-stephen-s-204794135" target="_blank" className="headerIcon">
-                    <FaLinkedin className="headerIcon" />
-                    </a>
-                  </li>
+                
                   <li>
                   <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="headerIcon">
                     <SiGmail className="headerIcon" />

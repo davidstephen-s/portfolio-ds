@@ -1,12 +1,11 @@
 import React from "react";
 import {
-  FaLinkedin,
   FaGithub,
-  FaLocationArrow,
+  
   
   
 } from "react-icons/fa";
-import{FcBusinessContact} from "react-icons/fc"
+import{BsFillTelephoneFill} from "react-icons/bs"
 import{
   SiGmail,
 } from "react-icons/si"
@@ -28,17 +27,19 @@ const Contact = () => {
                   <FaGithub className="contactIcon"  />
                   </a>
                 </li>
-                <li>
-                <a href ="https://www.linkedin.com/in/david-stephen/-204794135" target="_blank" className="contactIcon">
-                  <FaLinkedin className="contactIcon" />
-                  </a>
-                </li>
+              
                 <li>
                 <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="contactIcon">
                   <SiGmail className="contactIcon" />
                   </a>
                 </li>
-               
+                <li>
+                <p className="contactnum">
+                <BsFillTelephoneFill  />
+                 8667201866</p>
+            
+                  
+                </li>
               </ul>
       
             </div>

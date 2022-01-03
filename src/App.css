@@ -376,10 +376,23 @@ body {
   margin: 0 auto;
   width: 130px;
 }
-.contactSection p {
+.contactSection  p {
   color: #fff;
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  background: transparent;
+}
+.contactnum {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  background: transparent;
+}
+.contactnum:hover{
+  color:#ff4a57;
 }
 
 .contactCircles {
@@ -395,6 +408,9 @@ body {
   height: 40px;
 
 }
+
+  
+
 .contactCircles li {
   
   width: 50%;
