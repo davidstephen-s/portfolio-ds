@@ -27,15 +27,7 @@ const Contact = () => {
                   <FaGithub className="contactIcon"  />
                   </a>
                 </li>
-<<<<<<< HEAD
-              
-=======
-                <li>
-                <a href ="http://linkedin.com/in/davidstephens5405" target="_blank" className="contactIcon">
-                  <FaLinkedin className="contactIcon" />
-                  </a>
-                </li>
->>>>>>> cfc427db6a678fc6f7b4e1e1dcacc96f8e4ca958
+
                 <li>
                 <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="contactIcon">
                   <SiGmail className="contactIcon" />
