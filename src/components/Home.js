@@ -28,19 +28,7 @@ const Home = () => {
           <div className="co-6">
             <div className="header__content">
               <div className="header__section">
-                <ul className="header__ul">
-
-                  <li>
-                  <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="headerIcon">
-                    <SiGmail className="headerIcon" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href ="https://github.com/davidstephen-s" target="_blank" className="headerIcon">
-                    <FaGithub className="headerIcon" />
-                    </a>
-                    </li>
-                </ul>
+               
                
                 <h1>{state.title}</h1>
                 <div >
