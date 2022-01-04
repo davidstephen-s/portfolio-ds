@@ -14,7 +14,7 @@ const Contact = () => {
     <div className="contact">
       <div className="containe">
         <div className="contactSection">
-          <div className="ow justifyConter">
+          <div className="ow ">
             <div className="co-6">
               <div className="contactSection-logo">
                <h1 className="h21">
@@ -23,21 +23,34 @@ const Contact = () => {
               </div>
               <ul className="contactCircles">
                 <li>
-                <a href ="https://github.com/davidstephen-s" target="_blank" rel="noreferrer" className="contactIcon">
-                  <FaGithub className="contactIcon"  />
+                  <div className="">
+                  <a href="https://github.com/davidstephen-s" target="_blank" className="ct cI-outline">   <FaGithub className="ic"  />&nbsp;&nbsp;
+                    davidstephen-s
                   </a>
+                  &nbsp;&nbsp;&nbsp;
+                </div>
                 </li>
 
                 <li>
-                <a href ="mailto:davidstephen40@gmail.com" target="_blank" className="contactIcon">
-                  <SiGmail className="contactIcon" />
+
+                  
+                 <div className="header_ho">
+                  <a href="mailto:davidstephen40@gmail.com" target="_blank" className="ct cI-outline">  <SiGmail className="ic"/>&nbsp;&nbsp;
+                    davidstephen40@gmail.com
                   </a>
+                  &nbsp;&nbsp;&nbsp;
+                
+                </div>
                 </li>
                 <li>
-                <p className="contactnum">
-                <BsFillTelephoneFill  />
-                 8667201866</p>
-            
+        
+                 <div className="header_ho">
+                  <a href="" target="_blank" className="ct cI-outline"> <BsFillTelephoneFill className="ic"  />&nbsp;&nbsp;
+                    8667201866
+                  </a>
+                  &nbsp;&nbsp;&nbsp;
+                
+                </div>
                   
                 </li>
               </ul>

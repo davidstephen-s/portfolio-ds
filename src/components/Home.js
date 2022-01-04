@@ -1,13 +1,7 @@
 import React from "react";
 import {HomeContainer,HomeBg,VideoBg,HomeContent,} from './homebg'
 import HD0411 from './HD0411.mp4'
-import {
-  FaLinkedin,
-  FaGithub
-} from "react-icons/fa";
-import{
-  SiGmail,
-} from "react-icons/si"
+
 
 const Home = () => {
   const [state] = React.useState({

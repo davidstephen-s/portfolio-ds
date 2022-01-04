@@ -396,6 +396,7 @@ body {
 }
 
 .contactCircles {
+  position: relative;
   margin-top: 6%;
   width: 95%;
   display: flex;
@@ -406,10 +407,37 @@ body {
   color: #dfdfdf;
   width: 30px;
   height: 40px;
-
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-decoration: none;
 }
-
-  
+.ic{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+.ct{ 
+  position: relative;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+.cI-outline {
+  position: relative;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+.cI-outline:hover{
+  transition: all 0.5s linear;
+  cursor: pointer;
+  color:#ff4a57;
+  background-color: white;
+  border: 2px solid transparent;
+}
 
 .contactCircles li {
   
