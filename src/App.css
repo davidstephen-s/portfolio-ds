@@ -420,7 +420,7 @@ body {
 }
 .ct{ 
   position: relative;
-  
+  font-weight: bold;
   outline: none;
   border: none;
   color: #fff;
