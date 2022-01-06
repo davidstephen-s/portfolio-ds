@@ -25,7 +25,7 @@ const About = () => {
               <h1>Hi There ,</h1>
               <div className="about__info-p1">
               I'm a passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences powered by strong frontend. I primarily work with MERN stack among the full stack technologies. The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively. And,To be an engineer where i can contribute
-my skill and experience to the further
+my skills and experience to the further
 development of the organization and
 achieve growth in my professional career.
               </div>
