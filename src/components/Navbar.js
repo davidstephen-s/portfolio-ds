@@ -29,7 +29,7 @@ function Navbar({toggle}) {
                         </NavItem>
                         <NavItem>
                             <NavLinks to='services' spy={true} smooth={true} offset={-70} duration={500}>
-                                skills
+                                Skills
                             </NavLinks>
                         </NavItem>
                         <NavItem>
@@ -39,7 +39,7 @@ function Navbar({toggle}) {
                         </NavItem>
                         <NavItem>
                             <NavLinks to='contact' spy={true} smooth={true} offset={-70} duration={500}>
-                                contact
+                                Contact
                             </NavLinks>
                         </NavItem>
                     </NavMenu>

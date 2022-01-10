@@ -14,8 +14,8 @@ function Portfolio() {
             <h1 className='logo-text'>Portfolio</h1>
             
             <div className='allProjects'>
-            <div class="row row-cols-2  row-cols-md-4 g-0   ">
-                <div class="card"  data-aos="zoom-in-up">
+            
+                <div class="card "  data-aos="zoom-in-up">
                     <img src={Invoice} class="card-img-top" alt="..." />
                     <div class="title_heading">
                         <h5 class="card-title">Mern-Notes-App</h5>
@@ -60,6 +60,7 @@ function Portfolio() {
                         </div>
                     </div>   
                 </div>
+                <div className='tab'></div>
                 <div class="card" data-aos="zoom-in-up">
                     <img src={Res} class="card-img-top" alt="..." />
                     <div class="title_heading">
@@ -114,7 +115,7 @@ function Portfolio() {
                 </div>
 
             </div>
-        </div>
+        
     )
 }
 
